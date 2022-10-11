@@ -1,0 +1,154 @@
+libphp-serialization-perl (0.34-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * Update my email address.
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Fabrizio Regalli ]
+  * Bump to 3.9.2 Standard-Version.
+  * Add myself to Uploaders and Copyright.
+  * Switch d/compat to 8.
+  * Build-Depends: switch to debhelper (>= 8).
+  * Fixed lintian copyright-refers-to-symlink-license message.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Fabrizio Regalli from Uploaders. Thanks for your work!
+  * Add Testsuite declaration for pkg-perl-autopkgtest.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+  * Remove Jose Luis Rivas from Uploaders. Thanks for your work!
+
+  [ Alex Muntada ]
+  * Remove inactive pkg-perl members from Uploaders.
+
+  [ Niko Tyni ]
+  * Update to debhelper compat level 10
+  * Update to Standards-Version 4.1.3
+  * Declare that the package does not need (fake)root to build
+  * Patch POD documentation to add encoding information
+
+ -- Niko Tyni <ntyni@debian.org>  Sat, 17 Feb 2018 18:46:56 +0200
+
+libphp-serialization-perl (0.34-1) unstable; urgency=low
+
+  [ Ryan Niebur ]
+  * Update jawnsy's email address
+
+  [ Jonathan Yu ]
+  * New upstream release
+
+  [ gregor herrmann ]
+  * Convert to source format 3.0 (quilt).
+  * Set Standards-Version to 3.8.4 (no changes).
+  * Add /me to Uploaders.
+  * Update formatting for debian/copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 28 Mar 2010 16:26:13 +0200
+
+libphp-serialization-perl (0.33-1) unstable; urgency=low
+
+  * New upstream release
+    + New features: store key ordering, sort hashes before encoding
+  * Added myself to Uploaders and Copyright
+  * Rewrote Description
+
+ -- Jonathan Yu <frequency@cpan.org>  Wed, 15 Jul 2009 14:45:58 -0400
+
+libphp-serialization-perl (0.32-1) unstable; urgency=low
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * New upstream release.
+  * Use minimal debian/rules.
+  * Bump Standards Version to 3.8.2 (no changes).
+
+  [ gregor herrmann ]
+  * debian/control: make short description a noun phrase.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Sun, 21 Jun 2009 11:38:48 +0200
+
+libphp-serialization-perl (0.31-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/rules: Do not delete MANIFEST.bak in clean target.
+  * Bump Standards Version to 3.8.1 (no changes).
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Wed, 15 Apr 2009 21:06:41 +0200
+
+libphp-serialization-perl (0.30-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+
+  [ Ansgar Burchardt ]
+  * New upstream release.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Mon, 12 Jan 2009 14:38:14 +0100
+
+libphp-serialization-perl (0.29-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh debian/rules for debhelper 7
+  * Add myself to Uploaders
+  * debian/control: Fix Homepage field
+  * Convert debian/copyright to proposed machine-readable format
+  * debian/control: Don't start short description with a capital letter
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Fri, 19 Sep 2008 15:09:43 +0200
+
+libphp-serialization-perl (0.28-1) unstable; urgency=low
+
+  [ Gunnar Wolf ]
+  * New upstream release
+  * Added myself as an uploader
+  * Standards-version -> 3.8.0 (no changes needed)
+
+  [ Martín Ferrari ]
+  * Fixed incorrect watchfile.
+
+  [ gregor herrmann ]
+  * Set debhelper compatibility level in debian/compat to 5 to match
+    dependency in debian/control; thanks to Andreas Ferber (closes:
+    #469044).
+
+  [ Jose Luis Rivas ]
+  * debian/watch:
+   + Fixed so now match properly the URI.
+
+  [ Gunnar Wolf ]
+  * Fixed short description as instructed by lintian
+
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 15 Sep 2008 10:42:06 -0500
+
+libphp-serialization-perl (0.27-1) unstable; urgency=low
+
+  * Initial Release (closes: #463350).
+
+ -- Krzysztof Krzyzaniak (eloy) <eloy@debian.org>  Thu, 31 Jan 2008 16:14:13 +0100

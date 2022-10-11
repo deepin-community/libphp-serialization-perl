@@ -1,0 +1,25 @@
+Source: libphp-serialization-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>,
+           gregor herrmann <gregoa@debian.org>
+Section: perl
+Rules-Requires-Root: no
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: perl
+Standards-Version: 4.1.3
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libphp-serialization-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libphp-serialization-perl.git
+Homepage: https://metacpan.org/release/PHP-Serialization
+
+Package: libphp-serialization-perl
+Architecture: all
+Depends: ${perl:Depends},
+         ${misc:Depends}
+Description: Perl module to manipulate serialized PHP data structures
+ PHP::Serialization provides a simple means of serializing Perl data structures
+ (including object data) into PHP's serialized data format. It can also process
+ this data as input, in order to read serialized PHP data structures into their
+ Perl equivalents. Numeric arrays are mapped to arrays in Perl and vice-versa.
+ Similarly, arrays which contain string keys are mapped to hashes in Perl.
